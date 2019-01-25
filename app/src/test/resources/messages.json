@@ -1,0 +1,53 @@
+{
+  "resultCode": 0,
+  "messages": [
+    {
+      "id": 2,
+      "status": 3,
+      "header": "test bericht 2",
+      "text": "test bericht 2 en dan nog veel meer tekst",
+      "dateFrom": "2019-01-18",
+      "dateUntil": "2019-01-16"
+    },
+    {
+      "id": 3,
+      "status": 9,
+      "header": "een voorbeeld van een notificatie",
+      "text": "details notificatie 6",
+      "dateFrom": "2019-01-22",
+      "dateUntil": "2019-03-21"
+    },
+    {
+      "id": 4,
+      "status": 3,
+      "header": "test bericht 4",
+      "text": "test bericht 4 en dan nog veel meer tekst",
+      "dateFrom": "2019-01-16",
+      "dateUntil": "2019-01-16"
+    },
+    {
+      "id": 6,
+      "status": 0,
+      "header": "morgen zijn er geen storingen",
+      "text": "",
+      "dateFrom": "2019-01-18",
+      "dateUntil": "2019-01-23"
+    },
+    {
+      "id": 7,
+      "status": 99,
+      "header": "header hier",
+      "text": "en text hier of toch niet",
+      "dateFrom": "2019-01-23",
+      "dateUntil": "2019-01-25"
+    },
+    {
+      "id": 14,
+      "status": 0,
+      "header": "piet",
+      "text": "puk",
+      "dateFrom": "2019-01-23",
+      "dateUntil": "2019-01-23"
+    }
+  ]
+}
