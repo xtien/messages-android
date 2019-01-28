@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2019, Zaphod Consulting BV, Christine Karman
+ * This project is free software: you can redistribute it and/or modify it under the terms of
+ * the Apache License, Version 2.0. You can find a copy of the license at
+ * http://www. apache.org/licenses/LICENSE-2.0.
+ */
+
 package com.loqli.messages
 
 import android.content.Context
@@ -21,10 +28,10 @@ class MessagesAdapter(val items: List<Message>, val context: Context) : Recycler
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         var status: Int = items.get(position).status
-        holder?.header?.text = items.get(position).header
-        holder?.text?.text = items.get(position).text
-        holder?.status?.text = status.toString()
-        holder?.header?.setTextColor(if (status < 5) Color.BLACK else Color.RED)
+        holder.header.text = items.get(position).header
+        holder.text.text = items.get(position).text
+        holder.status.text = status.toString()
+        holder.header.setTextColor(if (status < 5) Color.BLACK else Color.RED)
     }
 
     override fun getItemCount(): Int {
@@ -33,7 +40,6 @@ class MessagesAdapter(val items: List<Message>, val context: Context) : Recycler
 }
 
 class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-    // Holds the TextView that will add each animal to
     val header = view.header
     val text = view.text
     val status = view.status
